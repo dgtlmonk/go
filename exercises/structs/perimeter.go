@@ -1,4 +1,4 @@
-package main
+package structs
 
 import "math"
 
@@ -44,6 +44,6 @@ func Perimeter(rectangle Rectangle) float64 {
 	return 2 * (rectangle.Width + rectangle.Height)
 }
 
-func main() {
+func structs() {
 
 }
