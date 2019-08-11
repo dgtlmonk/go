@@ -1,8 +1,8 @@
 # go
 Go lang personal projects and exercises
 
-- [ ] TDD
-- [ ] Routing
-- [ ] CRUD examples
+- [ ] with TDD
+- [ ] with Routing
+- [ ] with CRUD 
 - [ ] with Postgre
 - [ ] with Redis
