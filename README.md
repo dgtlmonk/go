@@ -1,4 +1,4 @@
-# go
+# Go lang ng Go :D 
 Go lang personal projects and exercises
 
 - [ ] with TDD
