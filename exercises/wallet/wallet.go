@@ -5,7 +5,8 @@ import (
 	"fmt"
 )
 
-// ErrInsufficientFunds The var keyword allows us to define values global to the package.
+// ErrInsufficientFunds insufficient fund error
+// The var keyword allows us to define values global to the package.
 var ErrInsufficientFunds = errors.New("cannot withdraw, insufficient funds")
 
 // Bitcoin usage Bitcoin(999)
