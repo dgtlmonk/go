@@ -5,6 +5,9 @@ import (
 	"fmt"
 )
 
+// ErrInsufficientFunds The var keyword allows us to define values global to the package.
+var ErrInsufficientFunds = errors.New("cannot withdraw, insufficient funds")
+
 // Bitcoin usage Bitcoin(999)
 type Bitcoin int
 
@@ -38,7 +41,7 @@ func (w *Wallet) Withdraw(amount Bitcoin) error {
 
 	if amount > w.balance {
 		// returns error flag + string msg
-		return errors.New("cannot withdraw, insufficient funds")
+		return ErrInsufficientFunds
 	}
 
 	w.balance -= amount
